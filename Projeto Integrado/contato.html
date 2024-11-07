@@ -1,0 +1,101 @@
+<!doctype HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    <header>
+        <a href="home.html" id="logo"><img src="./img/Logo.png">Aramath</a>
+
+        <button id="openMenu">&#9776;</button>
+
+        <nav id="menu">
+            <button id="closeMenu" style="color: white;">X</button>
+            <a href="home.html">Inicio</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Enigmas</a>
+                <div class="dropdown-content">
+                    <a href="bailarinas.html">Bailarinas gêmeas</a>
+                    <a href="macas.html">90 maçãs</a>
+                    <a href="vasos.html">21 vasos</a>
+                    <a href="discos.html">5 discos</a>
+                </div>
+            </div>
+            <a href="autor.html">Autor</a>
+            <a href="home.html#sobre">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+    </header>
+    
+    <main>
+    <form name="satisfacao">
+        <div class="linha">
+            <img src="img/thinkOG1.jpg" width="500" height="auto">
+            <div class="text">
+                <h2>Dados Pessoais</h2><br>
+                <p><label for="Nome">Nome:</label><input text="text" name="Nome" placeholder="Nome"></p>
+                <p><label for="E-Mail">Email:</label><input text="text" name="E-Mail" placeholder="example@example.com"></p>
+                <p><label for="Senha">Senha:</label><input type="password" name="Senha" placeholder="password"></p>
+                <p><label for="Confirmar Senha">Confirmar Senha:</label><input type="password" name="Confirmar" placeholder="confirmar"></p>
+            </div>
+        </div>
+
+        <div class="linha">
+            <div class="text">
+                <h2>Sobre o Livro</h2><br>
+                <h5>Qual o seu enigma preferido?</h5><br>
+                <p>
+                <label><input type="radio" id="BG" name="problemas" value="1"/>Bailarinas Gêmeas</label><br/>
+                <label><input type="radio" id="CD" name="problemas" value="2"/>5 Discos</label><br/>
+                <label><input type="radio" id="MC" name="problemas" value="3"/>90 Maçãs</label><br/>
+                <label><input type="radio" id="VS" name="problemas" value="4"/>21 Vasos</label><br/>
+                <label><input type="radio" id="TD" name="problemas" value="5"/>Todos</label><br/>
+                <label><input type="radio" id="NN" name="problemas" value="6"/>Nenhum</label><br/>
+                </p>
+            </div>
+            <img src="img/thinkOG.jpg" width="500" height="auto">
+        </div>
+
+        <div class="linha">
+            <div id="imgHappy"></div>
+            <div class="text">
+                <h2>Sua opinião é importante</h2><br>
+            <p class="select">
+                <select>
+                <option> Muito Alta (O site está muito bom, não precisa de nada a mais) </option>
+                <option> Alta (O site está bom, não precisa de muita coisa para ficar melhor) </option>
+                <option> Média-Alta (O site está bom, mas poderia ter mais coisas) </option>
+                <option> Média (O site está decente, faltam algumas coisas para ficar bom) </option>
+                <option> Média-Baixa (O site está ruim, mas não falta muito para ficar decente) </option>
+                <option> Baixa (O site está ruim, precisa de muita coisa para ficar decente) </option>
+                <option> Muito Baixa (O site está muito ruim, precisa de uma imensa melhoria para ficar decente) </option>
+                </select><br><br>
+                <h2>Envie-nos comentários</h2>
+                <textarea style="resize: none"></textarea>
+            </p>
+            </div>
+        </div>
+        
+        <input type="reset" value="limpar">
+        <input type="submit" value="enviar">
+        
+    </form>
+    </main>
+    
+    <footer>&#169; Todos os Direitos Reservados</footer>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
